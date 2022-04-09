@@ -1,6 +1,6 @@
-#Project 2
+# Project 2
 
-##Expense App
+## Expense App
 
 3 inputs
 
