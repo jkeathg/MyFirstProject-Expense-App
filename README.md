@@ -1,3 +1,28 @@
+#Project 2
+
+##Expense App
+
+3 inputs
+
+Name (Where expense was made)
+date
+amount
+
+add expense button
+
+make a line item that shows record of these. 
+
+
+
+
+
+
+
+
+
+
+
+
 # Alchemy Dev 101 Template
 
 ## Making a plan!
