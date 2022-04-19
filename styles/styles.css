@@ -8,6 +8,8 @@ body {
 
 main {
     padding: 30px;
+    top: 0;
+    right: 0;
 }
 
 header {
@@ -17,6 +19,17 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+#formBox {
+    display: flex;
+    justify-content: center;
+    
+}
+
+form {
+    display: flexbox;
+    
 }
 
 header img {
@@ -32,4 +45,31 @@ h1 {
 footer {
     background-color: #FAF0EA;
     padding: 10px;
+}
+
+#expenseList {
+    margin: 0 auto;
+}
+
+ul {
+    padding-top: 50px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#newEntry {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: lightgray;
+
+}
+
+#newEntry > li {
+    padding: 5px;
+    background-color: #A2D7D2;
 }

@@ -19,7 +19,21 @@
     
     <main>
 
-        Make a Web App!
+        <div id="formBox">
+            <form>
+                <label class="expenseEntry" for="expenseName">Expense Name</label>
+                <input class="expenseEntry" type="text"  id="expenseName" name="expenseName" placeholder="Type your expense here">
+                <label class="expenseEntry" for="expenseDate">Date of Expense</label>
+                <input class="expenseEntry" type="date" id="expenseDate" name="expenseDate" min="2020-1-1" max="today" >
+                <label class="expenseEntry" for="expenseAmt">Amount</label>
+                <input class="expenseEntry" type="number" step="0.01" min="0.01" max="200.00" name="expenseAmt" id="expenseAmt">
+                <input class="expenseEntry" type="button" id="enterExpense" value="Submit Expsense">
+            </form>
+        </div>
+        <div id="expenseList">
+
+        </div>
+
         
     </main>
 
